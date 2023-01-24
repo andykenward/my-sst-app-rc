@@ -2,6 +2,8 @@
   "name": "@my-sst-app-rc/core",
   "version": "0.0.0",
   "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
   "scripts": {
     "test": "sst bind 'vitest'",
     "typecheck": "tsc -noEmit"
@@ -9,9 +11,6 @@
   "devDependencies": {
     "vitest": "^0.28.1",
     "@types/node": "^18.11.18",
-    "sst": "rc"
-  },
-  "dependencies": {
-    "sst": "rc"
+    "sst": "2.0.0-rc.48"
   }
 }

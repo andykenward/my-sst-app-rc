@@ -8,10 +8,10 @@
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
-    "@types/aws-lambda": "^8.10.109",
-    "sst": "rc"
+    "@types/aws-lambda": "^8.10.109"
   },
   "dependencies": {
-    "sst": "rc"
+    "@my-sst-app-rc/core": "workspace:*",
+    "sst": "2.0.0-rc.48"
   }
 }
