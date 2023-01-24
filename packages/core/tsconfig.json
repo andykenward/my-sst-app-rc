@@ -1,7 +1,5 @@
 {
-  "extends": "@tsconfig/node16/tsconfig.json",
-  "include": ["**/*.ts", "../../.sst/types"],
-  "compilerOptions": {
-    "module": "esnext"
-  }
+  "extends": "tsconfig/core.json",
+  "include": ["src", "../../.sst/types"],
+  "exclude": ["node_modules"]
 }

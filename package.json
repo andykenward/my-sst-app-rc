@@ -12,11 +12,11 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "sst": "2.0.0-rc.48",
+    "@tsconfig/node16": "1.0.3",
     "aws-cdk-lib": "2.55.0",
     "constructs": "10.1.156",
-    "typescript": "4.9.4",
-    "@tsconfig/node16": "1.0.3"
+    "sst": "2.0.0-rc.48",
+    "typescript": "4.9.4"
   },
   "resolutions": {
     "@aws-sdk/credential-providers": "3.256.0"
