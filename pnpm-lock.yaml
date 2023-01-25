@@ -38,6 +38,7 @@ importers:
       '@types/node': 18.11.18
       sst: 2.0.0-rc.51
       tsconfig: workspace:*
+      undici: 5.16.0
     dependencies:
       '@my-sst-app-rc/core': link:../core
       sst: 2.0.0-rc.51
@@ -45,6 +46,7 @@ importers:
       '@types/aws-lambda': 8.10.109
       '@types/node': 18.11.18
       tsconfig: link:../tsconfig
+      undici: 5.16.0
 
   packages/tsconfig:
     specifiers:

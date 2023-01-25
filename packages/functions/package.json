@@ -9,7 +9,8 @@
   "devDependencies": {
     "@types/aws-lambda": "8.10.109",
     "@types/node": "18.11.18",
-    "tsconfig": "workspace:*"
+    "tsconfig": "workspace:*",
+    "undici": "5.16.0"
   },
   "dependencies": {
     "@my-sst-app-rc/core": "workspace:*",

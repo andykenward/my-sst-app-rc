@@ -1,5 +1,5 @@
 {
   "extends": "tsconfig/functions.json",
-  "include": ["src", "../../.sst/types"],
+  "include": ["src", "../../.sst/types", "undici.d.ts"],
   "exclude": ["node_modules"]
 }
