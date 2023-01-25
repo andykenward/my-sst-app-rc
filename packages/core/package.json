@@ -9,9 +9,9 @@
     "typecheck": "tsc -noEmit"
   },
   "devDependencies": {
-    "vitest": "^0.28.1",
-    "@types/node": "^18.11.18",
-    "sst": "2.0.0-rc.48",
-    "tsconfig": "workspace:*"
+    "@types/node": "18.11.18",
+    "sst": "2.0.0-rc.49",
+    "tsconfig": "workspace:*",
+    "vitest": "0.28.2"
   }
 }
