@@ -1,4 +1,5 @@
 {
-  "extends": "@tsconfig/node16/tsconfig.json",
-  "include": ["stacks", "sst.config.ts"]
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "include": ["stacks", "sst.config.ts"],
+  "exclude": ["node_modules"]
 }
