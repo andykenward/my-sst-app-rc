@@ -12,7 +12,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@tsconfig/node16": "1.0.3",
+    "@tsconfig/node18": "1.0.1",
     "aws-cdk-lib": "2.55.0",
     "constructs": "10.1.156",
     "sst": "2.0.0-rc.49",
@@ -24,5 +24,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "engines": {
+    "node": "18.13.0",
+    "pnpm": "7.22.0"
+  },
   "packageManager": "pnpm@7.22.0"
 }

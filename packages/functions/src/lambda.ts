@@ -4,6 +4,6 @@ import { Time } from "@my-sst-app-rc/core";
 
 export const handler = ApiHandler(async (_evt) => {
   return {
-    body: `Hello world and some dogs. The time is ${Time.now()}`,
+    body: `Hello world and some cats. The time is ${Time.now()}`,
   };
 });

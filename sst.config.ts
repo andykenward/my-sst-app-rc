@@ -16,7 +16,7 @@ export default {
   },
   stacks(app) {
     app.setDefaultFunctionProps({
-      runtime: "nodejs16.x",
+      runtime: "nodejs18.x",
       architecture: "arm_64",
     });
     app.stack(API);
