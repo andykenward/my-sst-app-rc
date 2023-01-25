@@ -4,7 +4,7 @@ import { API } from "./stacks/MyStack";
 export default {
   config(input) {
     const PROFILE: Record<string, string> = {
-      andykenward: "development",
+      production: "production",
       development: "development",
       default: "development",
     };
